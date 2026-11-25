@@ -551,8 +551,7 @@ public final class ArchiveUi {
             btn = new TextView(ctx);
             btn.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12f);
             btn.setTypeface(Typeface.DEFAULT_BOLD);
-            btn.setSingleLine(false);
-            btn.setMaxLines(2);
+            btn.setSingleLine(true);
             btn.setGravity(Gravity.CENTER);
             btn.setPadding(dp(ctx, 12), dp(ctx, 6), dp(ctx, 12), dp(ctx, 6));
             btn.setClickable(true);
@@ -619,15 +618,15 @@ public final class ArchiveUi {
         if (isArchived) {
             bg.setColor(Color.parseColor(dark ? "#0D9488" : "#0F766E"));
             btn.setTextColor(Color.WHITE);
-            btn.setText(t("\u2713 Archivierte Version öffnen", "\u2713 Open archived version"));
+            btn.setText(t("\u2713 Archiv", "\u2713 Archive"));
         } else if (isExpired) {
             bg.setColor(Color.parseColor(dark ? "#2563EB" : "#1D4ED8"));
             btn.setTextColor(Color.WHITE);
-            btn.setText(t("Aus Drive laden", "Load from Drive"));
+            btn.setText("Drive");
         } else {
             bg.setColor(Color.parseColor(dark ? "#4B5563" : "#374151"));
             btn.setTextColor(Color.WHITE);
-            btn.setText(t("+ Ins Archiv speichern", "+ Save to archive"));
+            btn.setText(t("+ Archiv", "+ Archive"));
         }
         btn.setBackground(bg);
     }
