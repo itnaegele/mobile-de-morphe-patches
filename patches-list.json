@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "patches": [
     {
       "name": "Abgelaufene Inserate archivieren (Google Drive)",
@@ -17,6 +17,13 @@
           "signatures": null,
           "formFactor": "MOBILE",
           "targets": [
+            {
+              "version": "10.30",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
             {
               "version": "10.29",
               "versionCodes": null,
@@ -52,6 +59,13 @@
           "formFactor": "MOBILE",
           "targets": [
             {
+              "version": "10.30",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
               "version": "10.29",
               "versionCodes": null,
               "isExperimental": false,
@@ -85,6 +99,13 @@
           "signatures": null,
           "formFactor": "MOBILE",
           "targets": [
+            {
+              "version": "10.30",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
             {
               "version": "10.29",
               "versionCodes": null,
@@ -120,6 +141,13 @@
           "formFactor": "MOBILE",
           "targets": [
             {
+              "version": "10.30",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
               "version": "10.29",
               "versionCodes": null,
               "isExperimental": false,
@@ -153,6 +181,13 @@
           "signatures": null,
           "formFactor": "MOBILE",
           "targets": [
+            {
+              "version": "10.30",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
             {
               "version": "10.29",
               "versionCodes": null,
@@ -188,6 +223,13 @@
           "formFactor": "MOBILE",
           "targets": [
             {
+              "version": "10.30",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
               "version": "10.29",
               "versionCodes": null,
               "isExperimental": false,
@@ -221,6 +263,13 @@
           "signatures": null,
           "formFactor": "MOBILE",
           "targets": [
+            {
+              "version": "10.30",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
             {
               "version": "10.29",
               "versionCodes": null,

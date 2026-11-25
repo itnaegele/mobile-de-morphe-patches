@@ -1,6 +1,6 @@
 # mobile.de Morphe Patches
 
-[Morphe](https://morphe.software) patches for the **mobile.de** Android app (`de.mobile.android.app`, target version **10.29**).
+[Morphe](https://morphe.software) patches for the **mobile.de** Android app (`de.mobile.android.app`, target versions **10.30**, **10.29**).
 
 ## Installation in Morphe Manager
 
@@ -15,7 +15,7 @@ Open this link on your Android phone with Morphe Manager installed:
    ```
    github.com/itnaegele/mobile-de-morphe-patches
    ```
-3. Select the **mobile.de** full APK (v10.29) and toggle the patches you want.
+3. Select the **mobile.de** full APK (v10.30 or v10.29) and toggle the patches you want.
 
 > **Note:** Morphe requires a full `.apk` file (if you exported a split APK / `.apkm`, merge it first e.g. with AntiSplit-M).
 
